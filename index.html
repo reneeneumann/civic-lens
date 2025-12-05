@@ -22,6 +22,7 @@
 <body>
 <!-- ADD semantic and validated HTML -->
 <!-- ADD skip to main content -->
+  <div class="banner">  
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <button id="theme-toggle" aria-label="Toggle light/dark mode">
@@ -44,69 +45,103 @@
           <li><a href="#social">Social</a></li>
         </ul>
       </nav>
-     
+  </div>   
+
     <main id="main-content">  
       <h2>Welcome to Civic Lens</h2>
         <p>We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
-        <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
+        <blockquote class="tagline">“We don't follow the narrative. We <span>follow</span> the facts.”</blockquote>
 
       <h2>Breaking News</h2>
 
-        <h3>Federal Investigation Launched into Water Mismanagement in the Southwest</h3>
-        <p>The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.</p>
-        <video controls>
-          <source src="videos/water-management.mp4" type="video/mp4">
-        </video>
-        
-        <h3>Voter Suppression Bill Faces Pushback in State Supreme Court</h3>
-        <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
-        <video controls>
-          <source src="videos/voter-suppression.mp4" type="video/mp4">
-        </video>
-        
+      <div class="news-container">
+        <div class="newsone">
+          <h3>Federal Investigation Launched into Water Mismanagement in the Southwest</h3>
+          <p>The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.</p>
+          <video controls>
+            <source src="videos/water-management.mp4" type="video/mp4">
+          </video>
+        </div> 
+
+        <div class="newstwo"> 
+          <h3>Voter Suppression Bill Faces Pushback in State Supreme Court</h3>
+          <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
+          <video controls>
+            <source src="videos/voter-suppression.mp4" type="video/mp4">
+          </video>
+        </div> 
+      </div>
+
       <h2>Featured Articles</h2>
         
-        <h3>The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
-        <p>Former employees speak out about ethical breaches in data privacy and surveillance.</p>
-        
-        <h3>Unequal Justice: How Bail Systems Harm the Poor</h3>
-        <p>An investigative series on cash bail and its disproportionate impact.</p>
-        
-        <h3>Invisible Work: The Lives of Migrant Caregivers</h3>
-        <p>Humanizing the labor that keeps households and economies afloat.</p>
-        
-        <h3>Redlined Still: A New Map of Modern-Day Housing Discrimination</h3>
-        <p>Data visualization showing systemic inequality in real estate today.</p>
-        
-        <h3>Climate Injustice: Who Pays for Pollution?</h3>
-        <p>Communities of color bear the brunt of environmental damage.</p>
-        
-        <h3>Teaching Under Fire: The Fight for Inclusive Education</h3>
-        <p>Teachers navigate book bans, curriculum restrictions, and culture wars.</p>
-        
-        <h3>Food Deserts and Corporate Abandonment</h3>
-        <p>Why access to nutrition is a zip code lottery.</p>
-        
-        <h3>Policing Mental Health: A Broken Response System</h3>
-        <p>Examining police interactions with those in crisis.</p>
-        
-        <h3>The Disinformation Economy</h3>
-        <p>Tracing profit motives behind fake news empires.</p>
-        
-        <h3>Facing the Algorithm: AI and Racial Bias</h3>
-        <p>The coded inequalities that shape our lives.</p>
-        
-        <h3>The Voting Maze</h3>
-        <p>A guide to understanding your rights amid changing laws.</p>
-        
-        <h3>After the Cameras Leave: Long-Term Crisis Recovery</h3>
-        <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
-        
+      <div class="article-container">
+
+        <div>
+          <h3>The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
+          <p>Former employees speak out about ethical breaches in data privacy and surveillance.</p>
+        </div>
+
+        <div>
+          <h3>Unequal Justice: How Bail Systems Harm the Poor</h3>
+          <p>An investigative series on cash bail and its disproportionate impact.</p>
+        </div>
+
+        <div>
+          <h3>Invisible Work: The Lives of Migrant Caregivers</h3>
+          <p>Humanizing the labor that keeps households and economies afloat.</p>
+        </div>
+
+        <div>
+          <h3>Redlined Still: A New Map of Modern-Day Housing Discrimination</h3>
+          <p>Data visualization showing systemic inequality in real estate today.</p>
+        </div>
+
+        <div>
+          <h3>Climate Injustice: Who Pays for Pollution?</h3>
+          <p>Communities of color bear the brunt of environmental damage.</p>
+        </div>
+
+        <div>
+          <h3>Teaching Under Fire: The Fight for Inclusive Education</h3>
+          <p>Teachers navigate book bans, curriculum restrictions, and culture wars.</p>
+        </div>
+
+        <div>
+          <h3>Food Deserts and Corporate Abandonment</h3>
+          <p>Why access to nutrition is a zip code lottery.</p>
+        </div>
+
+        <div>
+          <h3>Policing Mental Health: A Broken Response System</h3>
+          <p>Examining police interactions with those in crisis.</p>
+        </div>
+
+        <div>
+          <h3>The Disinformation Economy</h3>
+          <p>Tracing profit motives behind fake news empires.</p>
+        </div>
+
+        <div>
+          <h3>Facing the Algorithm: AI and Racial Bias</h3>
+          <p>The coded inequalities that shape our lives.</p>
+        </div>
+
+        <div>
+          <h3>The Voting Maze</h3>
+          <p>A guide to understanding your rights amid changing laws.</p>
+        </div>
+
+        <div>
+          <h3>After the Cameras Leave: Long-Term Crisis Recovery</h3>
+          <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
+        </div>
+
+      </div>
         
       <h2>Stay Informed. Stay Empowered.</h2>
         <p>Receive text messages with the news you want to know.</p>
     </main>    
-    
+
         <form>
           
           <label>Name<input type="text" name="name"></label>
