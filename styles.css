@@ -479,7 +479,7 @@ footer nav {
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
   
-  #menu-toggle:checked + label + .menu { 
+  body:has(#menu--toggle:checked) { 
     display: block;
   } 
 }
