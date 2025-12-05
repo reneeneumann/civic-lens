@@ -144,20 +144,24 @@
 
         <form>
           
-          <label>Name<input type="text" name="name"></label>
-          
-          <label>Mobile<input type="tel" name="mobile"></label>
-          
+          <div class="form-row">
+            <label>Name<input type="text" name="name"></label>
+            
+            <label>Mobile<input type="tel" name="mobile"></label>
+          </div>
+
           <fieldset>
             <legend>Notification Preferences</legend>
             
-            <label><input type="checkbox" name="preference" value="breaking">Breaking News</label>
-            <label><input type="checkbox" name="preference" value="politics">Politics</label>
-            <label><input type="checkbox" name="preference" value="weather">Weather</label>
-            <label><input type="checkbox" name="preference" value="sports">Sports</label>
-            <label><input type="checkbox" name="preference" value="entertainment">Entertainment</label>
-            <label><input type="checkbox" name="preference" value="world">World</label>
-            <label><input type="checkbox" name="preference" value="financial">Financial</label>
+            <div class="checkbox-grid">
+              <label><input type="checkbox" name="preference" value="breaking">Breaking News</label>
+              <label><input type="checkbox" name="preference" value="politics">Politics</label>
+              <label><input type="checkbox" name="preference" value="weather">Weather</label>
+              <label><input type="checkbox" name="preference" value="sports">Sports</label>
+              <label><input type="checkbox" name="preference" value="entertainment">Entertainment</label>
+              <label><input type="checkbox" name="preference" value="world">World</label>
+              <label><input type="checkbox" name="preference" value="financial">Financial</label>
+            </div>
 
           </fieldset>
 
