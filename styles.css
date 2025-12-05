@@ -460,9 +460,26 @@ footer nav {
   }
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--truth-text);
+    }
 
+    .article-container div {
+      background-color: var(--truth-text);
+      color: var(--watchdog-white);
+      border: 1px solid var(--story-subtitle);
+    }
+
+    form {
+      border: 20px solid var(--truth-text);
+    }
+  }
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
-
+  
+  #menu-toggle:checked + label + .menu { 
+    display: block;
+  } 
 }
